@@ -1,6 +1,6 @@
 class WebsimSocket {
     constructor() {
-      this.url = 'wss://92388739-6ca1-469d-b773-cab71d1ac81b-00-1lx7zzrf3va8p.kirk.repl.co:3000';
+      this.url = 'wss://websim.synt2x.xyz';
       this.ws = new WebSocket(this.url);
       this.store = this.createStore();
       this.party = {
